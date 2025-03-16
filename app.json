@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "COETA AI",
+    "slug": "your-app-slug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/coeta_logo.png",
+    "splash": {
+      "image": "./assets/coeta_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1,
+      "permissions": ["INTERNET"],
+      "adaptiveIcon": {
+        "foregroundImage": "./coeta_logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "icon": "./coeta_logo.png"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dfe87568-8584-43ae-b9df-aa9bf35c6af2"
+      }
+    }
+  }
+}
